@@ -4,7 +4,7 @@ import pandas as pd
 db_config = {
     'host': 'localhost',
     'user': 'root',
-    'password': 'Prasad@123',  
+    'password': 'YOUR PASSWORD',  
     'database': 'real_estate'
 }
 
@@ -50,4 +50,5 @@ query_properties = "SELECT * FROM Properties;"
 query_to_csv(query_properties, "properties_list")
 
 query_transactions = "SELECT * FROM Transactions;"
+
 query_to_csv(query_transactions, "transactions")
